@@ -1,0 +1,47 @@
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.subscription-parent-container {
+  padding: 100px 30px;
+  background-color: black;
+}
+.subscription-title-container {
+  display: flex;
+  margin-bottom: 40px;
+}
+.subscription-title-text1 {
+  color: #fff;
+  margin-right: 10px;
+  font-family: montserrat-regular;
+}
+.subscription-title-text2 {
+  color: #ff4d15;
+  font-family: montserrat-regular;
+}
+.subscription-cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.merch-maincontainer {
+  display: flex;
+  background-color: #121212;
+  justify-content: space-around;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  flex-wrap: wrap;
+}
+
+.merch-imagecontainer {
+  height: 300px;
+  width: 300px;
+}
+
+.merch-titlecontainer {
+  color: #fff;
+  font-family: montserrat-regular;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
